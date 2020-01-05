@@ -1,0 +1,31 @@
+body {
+  margin: 0 auto;
+}
+
+.container {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-text {
+  color: white;
+  font-family: Helvetica;
+  font-size: 100px;
+  margin: 0 auto;
+}
+
+.container-p {
+  color: white;
+  font-family: Helvetica;
+  font-size: 32px;
+  margin: 0 auto;
+  border: 2px white dashed;
+  padding: 10px 20px;
+}
+
+.container-p:hover {
+  background: white;
+  transition: .35s ease-in-out;
+}
